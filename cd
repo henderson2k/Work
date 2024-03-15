@@ -1,1 +1,2 @@
 ping
+if dns record match then continue
