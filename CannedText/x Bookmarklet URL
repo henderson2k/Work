@@ -2,8 +2,4 @@ Below is the Javascript URL for use in Bookmarklets to copy text (from a Github 
 If the script can't be run from a Website Tab (CORS) then an alert appear, otherwise text should be copied to memory.
 
 
-javascript:(async()=>{try{const text=await (await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/CannedText/MyWorkUsername.txt')).text();await navigator.clipboard.writeText(text);}catch(e){alert("Can't Access Github from this page");}})();
-
-javascript:(async()=>{try{await navigator.clipboard.writeText(await (await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/CannedText/MyWorkUsername.txt')).text());}catch(e){alert("Can't Access Github from this page");}})();
-
 javascript:(async()=>{try{navigator.clipboard.writeText(await(await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/CannedText/MyWorkUsername.txt')).text());}catch{alert("Can't Access Github");}})();
