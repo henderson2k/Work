@@ -1,6 +1,6 @@
 Hi,
 
-Your PACS account has been set-up.
+Your  PACS account has been set-up.
 
 Username: 
 Password: pacs2024
