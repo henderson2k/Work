@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <style></style>
+  <link rel="icon" href="data:,">
+    <meta charset="utf-8">
+    <title>caller1 + " -  " + caseno</title>
+  </head>
+  <body>
+
+<script>
+
+//setTimeout(async()=>{ clipbo = await navigator.clipboard.readText();console.log(clipbo)}, 1)
+
+
+function copyToClip(str){
+
+function listener(e) {
+  e.clipboardData.setData("text/html", str);
+ e.clipboardData.setData("text/plain", str);
+ e.preventDefault();
+}
+document.addEventListener("copy", listener);
+document.getElementById('foo').focus();
+document.execCommand("copy");
+document.removeEventListener("copy", listener);
+
+};
+
+function sendEmail() 
+{
+window.location = "mailto:xyz@yourapplicationdomain.com";
+}
+
+
+
+
+function copyDivToClipboard() {
+                var range = document.createRange();
+                range.selectNode(document.getElementById("foo"));
+                window.getSelection().removeAllRanges(); // clear current selection
+                window.getSelection().addRange(range); // to select text
+                document.execCommand("copy");
+                window.getSelection().removeAllRanges();// to deselect
+document.getElementById("foo").style.backgroundColor="lightgray";
+
+            }
+
+
+function changefoobackgroundback() {
+document.getElementById("foo").style.backgroundColor="white";
+}
+
+
+function ctrla()
+{
+
+const elem = this.document.getElementById("foo");
+elem.execCommand("SelectAll", true);
+elem.execCommand("SelectAll");
+elem.execCommand("Copy");
+
+//this.document.execCommand("SelectAll", true);
+//this.document.execCommand("SelectAll");
+
+//this.document.execCommand("Copy");
+}
+</script>  
+
+
+<div>
+    <div style="width: 50%; float: left; "> 
+    <pre style="background-color:grey; color:white" id="log">Ping...</pre>
+
+    <pre id="log2">Details...</pre>
+    <pre>Remove-Item \\\\asset1\\c$\\Users\\gallagherlin\\AppData\\Local\\Temp\\* -Recurse -Force -ErrorAction SilentlyContinue</pre>
+    <pre>Remove-Item \\\\asset1\c$\\Windows\\Temp* -Recurse -Force -ErrorAction SilentlyContinue</pre>
+    <pre>wmic /node:asset1 product get name, version, vendor</pre>
+
+    </div>
+ <p align="center"> 
+
+</p>
+
+    <div contenteditable="true" style="margin-left: 50%; padding-left: 10px;">
+
+
+<div display="none" onmouseleave="changefoobackgroundback()" ondblclick="copyDivToClipboard();"  id="foo" >
+  07794411538
+  <br>
+  location1
+  <br>
+  <a>tel:07794411538</a><br> 
+  <a href='Tel:callertel' target="_blank">callertel</a><br> 
+  <a><b>caller1&nbsp&nbsp&nbsp</b></a><a href='Tel:callertel' rel="noopener noreferrer" title="Tel:01412345678" id="m_7886791162200243950gmail-LPlnk931333" target="_blank" style="color: rgb(228, 159, 255); font-family: &quot;Times New Roman&quot;; font-size: medium;">callertel</a><br> 
+    <b>location1</b><br>
+    tel:07794411538
+   <a href='caseurl'>caseno</a>&emsp;&emsp;<a href="mailto:nhsscotland@service-now.com?subject=Re: caseno&body=Kit collected from IT Store">Kit Collected</a><br>
+    
+<a href="mailto:nhsscotland@service-now.com?subject=Re: caseno">Send Email</a>
+
+    <a>asset1<a><br>
+    <a style="line-height: 1.5;" >description1</a><br>      
+</div>
+
+
+
+
+</div>
+
+
+<div style="position: absolute; right: 0px; padding-right: 160px; padding-bottom: 20px" id="qrcode"></div>
+<script type="text/javascript">
+new QRCode(document.getElementById("qrcode"), "callertel");
+</script>
+</div>
+
+
+
+<!--
+<button onclick="copyDivToClipboard();">Send e-mail</div>
+<a href="mailto:andrew.henderson2@lanarkshire.scot.nhs.uk?subject=Hello&amp;body=Hello%20World">Contact</a>
+<button onclick="copyToClip(document.getElementById('foo').outerHTML)">Copy</button>
+<button onclick="sendEmail();">Send e-mail</div>
+<a onclick="copyDivToClipboard();" href="https://mail.google.com/mail/?view=cm&fs=1&to=andrew.henderson2@lanarkshire.scot.nhs.uk&su=&body=">eMail</a>
+<input type="button" onclick="location.href='https://mail.google.com/mail/?view=cm&fs=1&to=andrew.henderson2@lanarkshire.scot.nhs.uk&su=Cases&body=','_blank';copyDivToClipboard();" value="Email" />   
+-->
+<a class="btn btn-primary" onclick="copyDivToClipboard();" href="https://mail.google.com/mail/?view=cm&fs=1&to=andrew.henderson2@lanarkshire.scot.nhs.uk&su=SN: date1&body=" target="_blank">Create Email</a>
+
+  </body>
+  <script>
+    var eventSource = new EventSource('/e');
+    eventSource.onmessage = function(event) {
+      if (event.lastEventId === '-1') {
+        // This is the end of the stream
+      eventSource.close();
+      } else {
+        // Process message that isn't the end of the stream...
+        document.getElementById('log').innerHTML = ''
+      document.getElementById('log').innerHTML += event.data + '<br>';
+      }
+    };
+  </script>
+
+  <script>
+  var eventSource = new EventSource('/f');
+  eventSource.onmessage = function(event2) {
+    if (event2.lastEventId === '-1') {
+      // This is the end of the stream
+    eventSource.close();
+    } else {
+      // Process message that isn't the end of the stream...
+      document.getElementById('log2').innerHTML = ''
+    document.getElementById('log2').innerHTML += event2.data + '<br>';
+    }
+  };
+
+  function ChangeUrl(title, url) {
+    if (typeof (history.pushState) != "undefined") {
+        var obj = { Title: title, Url: url };
+        history.pushState(obj, obj.Title, obj.Url);
+    } else {
+        alert("Browser does not support HTML5.");
+    }
+}
+//  setTimeout(function(){ window.history.replaceState({}, '','/');}, 120);
+//window.history.replaceState({}, '','/');
+clipbo = ""
+</script>
+</html>
