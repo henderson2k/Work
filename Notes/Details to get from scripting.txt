@@ -1,0 +1,17 @@
+ping
+if dns record match then continue
+get logged on user(s)
+boot time
+BSSID (if mobile)
+free disk space
+OU
+USB UPS
+RAM
+time stamp
+remove computer from list
+
+delete my profile and any others pre 6 months
+delete from registry too
+
+turn on remote registry
+winrm
