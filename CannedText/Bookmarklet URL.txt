@@ -1,2 +1,3 @@
 https://raw.githubusercontent.com/henderson2k/Work/main/CannedText/MyWorkseMail.txt
 
+javascript:(async()=>{try{const text=await (await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/CannedText/PACSUserAccountBlurb.txt')).text();await navigator.clipboard.writeText(text);alert('Text copied to clipboard!');}catch(e){alert("Can't Access Github from this page");}})();
