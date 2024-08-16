@@ -1,1 +1,0 @@
-javascript:(async()=>{try{const text=await (await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/CannedTxt/PACS/Account.txt')).text();await navigator.clipboard.writeText(text);alert('Text copied to clipboard!');}catch(e){alert("Can't Access Github from this page");}})();
