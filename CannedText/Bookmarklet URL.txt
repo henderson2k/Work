@@ -1,2 +1,2 @@
 
-javascript:(async()=>{try{const text=await (await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/CannedText/MyWorkUsername.txt')).text();await navigator.clipboard.writeText(text);alert('Text copied to clipboard!');}catch(e){alert("Can't Access Github from this page");}})();
+javascript:(async()=>{try{const text=await (await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/CannedText/MyWorkUsername.txt')).text();await navigator.clipboard.writeText(text););}catch(e){alert("Can't Access Github from this page");}})();
