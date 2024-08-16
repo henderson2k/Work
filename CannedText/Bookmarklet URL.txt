@@ -1,5 +1,5 @@
 Below is the Javascript URL for use in Bookmarklets to copy text (from a Github file) into memory. 
-If 
+If th
 
 
 javascript:(async()=>{try{const text=await (await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/CannedText/MyWorkUsername.txt')).text();await navigator.clipboard.writeText(text);}catch(e){alert("Can't Access Github from this page");}})();
