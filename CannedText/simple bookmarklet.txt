@@ -1,4 +1,4 @@
-Below Javascript copies text to 
+Below Javascript copies text to clipboard. 
 
 javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
 
