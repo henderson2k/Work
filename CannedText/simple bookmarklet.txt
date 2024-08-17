@@ -7,4 +7,4 @@ Works eMail:
 javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
 
 Works Username
-javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
+javascript:(()=>{navigator.clipboard.writeText(`hendersonand@nhsl.lanarkshire.scot.nhs.uk`).catch(err=>{console.error("Failed to copy text: ", err);});})();
