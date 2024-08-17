@@ -1,4 +1,4 @@
-Below 
+Below Javascrip
 
 javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
 
