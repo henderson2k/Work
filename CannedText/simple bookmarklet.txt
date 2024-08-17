@@ -2,6 +2,7 @@ Below Javascript copies text to clipboard. New lines require /n
 
 javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
 
+
 PACS Account Blurb:
 javascript:(()=>{navigator.clipboard.writeText(`Hi,\n\nYour PACS account has been set-up.\n\nUsername: \nPassword: pacs2024\n\nPlease note the username and password are both in lower case.\n\nYou must first access PACS directly before attempting to access diagnostic images via third party applications (e.g. Trakcare). You will then be prompted to change your password to a new password. This must be one that has not been used before and must contain at least one number and one capital letter.\n\nKeep your login details safe as they allow access to your personal details.\n\nDo not use this system until you have received formal training as all actions are audited. Link available here: http://firstport2/staff-support/radiology/General%20Info/Forms/DispForm.aspx?ID=17\n\nThanks.`).catch(err=>{console.error("Failed to copy text: ", err);});})();
 
