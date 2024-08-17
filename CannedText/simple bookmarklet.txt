@@ -6,5 +6,5 @@ javascript:(()=>{navigator.clipboard.writeText(`Hi,\n\nYour PACS account has bee
 Works eMail:
 javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
 
-Works 
+Works Username
 javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
