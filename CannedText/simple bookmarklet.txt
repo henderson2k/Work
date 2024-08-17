@@ -1,4 +1,4 @@
-Below Javascript 
+Below Javascript copies text to 
 
 javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
 
