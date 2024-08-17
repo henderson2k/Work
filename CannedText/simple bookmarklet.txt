@@ -6,3 +6,4 @@ javascript:(()=>{navigator.clipboard.writeText(`Hi,\n\nYour PACS account has bee
 javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
 
 
+javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
