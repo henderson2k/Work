@@ -59,5 +59,5 @@ function showDialog(messageText) {
     // Automatically close dialog after 3 seconds
     setTimeout(function() {
         d.close('timeout');
-    }, 3000);
+    }, 2000);
 }
