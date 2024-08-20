@@ -34,7 +34,7 @@ function showDialog(messageText) {
     d.innerHTML = `
         <form method="dialog">
             <p>${messageText}</p>
-          <!--  <button type="submit" value="ok">OK</button> 
+           <button type="submit" value="ok">OK</button> 
         </form>
     `;
     document.body.appendChild(d);
