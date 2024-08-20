@@ -41,22 +41,18 @@ function showDialog(messageText) {
     d.showModal();
 
     // Light dismiss functionality
-    function handleClickOutside(event) {
-        if (d.contains(event.target)) {
-            return; // Clicked inside the dialog, do nothing
+    function handlePointerDown(event) {
+        if (!d.contains(event.target)) {
+            d.close('dismiss');
         }
-        if (event.target === d) {
-            return; // Clicked on the dialog itself (e.g., if it has a semi-transparent background)
-        }
-        d.close('dismiss');
     }
 
-    // Add event listener for clicks outside the dialog
-    document.addEventListener('click', handleClickOutside);
+    // Add event listener for pointerdown to handle clicks outside
+    document.addEventListener('pointerdown', handlePointerDown);
 
     // Remove event listener and dialog after closing
     d.addEventListener('close', function() {
-        document.removeEventListener('click', handleClickOutside);
+        document.removeEventListener('pointerdown', handlePointerDown);
         d.remove();
     });
 
