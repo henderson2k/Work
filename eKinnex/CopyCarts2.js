@@ -15,9 +15,6 @@
             console.log(allMatches);
             showDialog(allMatches);
         })
-        .catch(error => {
-            console.error('Error copying text: ', error);
-        });
 })();
 
 function showDialog(messageText) {
