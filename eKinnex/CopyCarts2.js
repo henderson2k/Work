@@ -40,8 +40,6 @@ function showDialog(messageText) {
     document.body.appendChild(d);
     d.showModal();
 
-   
-
     // Automatically close dialog after 3 seconds
     setTimeout(function() {
         d.close('timeout');
