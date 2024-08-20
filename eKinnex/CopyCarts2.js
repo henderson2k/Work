@@ -1,7 +1,6 @@
 const urlToCheck = 'https://stylelink.ergotron.com/app/carts?org=354';
 
 var currentUrl = window.location.href;
-
 if (currentUrl === urlToCheck) {
     (function() {
         var matchesSet = new Set();
