@@ -40,21 +40,7 @@ function showDialog(messageText) {
     document.body.appendChild(d);
     d.showModal();
 
-    // Light dismiss functionality
-    function handlePointerDown(event) {
-        if (!d.contains(event.target)) {
-            d.close('dismiss');
-        }
-    }
-
-    // Add event listener for pointerdown to handle clicks outside
-    document.addEventListener('pointerdown', handlePointerDown);
-
-    // Remove event listener and dialog after closing
-    d.addEventListener('close', function() {
-        document.removeEventListener('pointerdown', handlePointerDown);
-        d.remove();
-    });
+   
 
     // Automatically close dialog after 3 seconds
     setTimeout(function() {
