@@ -8,4 +8,4 @@ https://stylelink.ergotron.com/app/dashboard?org=354
 
 javascript:(async()=>{eval(await(await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/eKinnex/CopyCartsAsset.js')).text())})();
 
-<href"javascript:(async()=>{eval(await(await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/eKinnex/CopyCartsAsset.js')).text())})();">test</href
+<href"javascript:(async()=>{eval(await(await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/eKinnex/CopyCartsAsset.js')).text())})();">test</href>
