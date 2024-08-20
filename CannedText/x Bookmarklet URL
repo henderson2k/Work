@@ -1,3 +1,16 @@
+Below Javascript copies text to clipboard. New lines require /n
+
+javascript:(()=>{navigator.clipboard.writeText(``).catch(err=>{console.error("Failed to copy text: ", err);});})();
+
+
+PACS Account Blurb:
+javascript:(()=>{navigator.clipboard.writeText(`Hi,\nYour PACS account has been set-up.\nUsername: \nPassword: pacs2024\nPlease note the username and password are both in lower case.\nYou must first access PACS directly before attempting to access diagnostic images via third party applications (e.g. Trakcare). You will then be prompted to change your password to a new password. This must be one that has not been used before and must contain at least one number and one capital letter.\nKeep your login details safe as they allow access to your personal details.\nDo not use this system until you have received formal training as all actions are audited. Link available here: http://firstport2/staff-support/radiology/General%20Info/Forms/DispForm.aspx?ID=17\nThanks.`).catch(err=>{console.error("Failed to copy text: ", err);});})(); 
+
+Works eMail:
+javascript:(()=>{navigator.clipboard.writeText(`andrew.henderson2@lanarkshire.scot.nhs.uk`).catch(err=>{console.error("Failed to copy text: ", err);});})();
+
+Works Username
+javascript:(()=>{navigator.clipboard.writeText(`hendersonand@nhsl.lanarkshire.scot.nhs.uk`).catch(err=>{console.error("Failed to copy text: ", err);});})();
 Below are Javascript URLs for use in Bookmarklets to copy text (from a Github file) into memory. 
 If the script can't be run from a Website Tab (CORS) then an alert appear, otherwise text should be copied to memory.
 
