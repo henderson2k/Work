@@ -36,7 +36,7 @@ function showDialog(messageText) {
             <p>${messageText}</p>
          '  <button type="submit" value="ok">OK</button> 
         </form>
-    `//
+    `
     document.body.appendChild(d);
     d.showModal();
 
