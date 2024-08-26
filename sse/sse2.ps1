@@ -59,7 +59,7 @@ while ($listener.IsListening) {
 param($cn1)
 
                 while ($true) {
-while
+while()
                 $pingResult = ping $cn1 -n 1
                 $filteredLines = $pingResult | Select-String -Pattern "Reply from"
                 $filteredLines | ForEach-Object {
