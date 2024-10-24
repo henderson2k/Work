@@ -12,3 +12,6 @@ javascript:(async()=>{eval(await(await fetch('https://raw.githubusercontent.com/
 
 <marquee>hi</marquee>
 
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
