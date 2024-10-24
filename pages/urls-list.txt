@@ -11,3 +11,4 @@ javascript:(async()=>{eval(await(await fetch('https://raw.githubusercontent.com/
 <a href="javascript:(async()=>{eval(await(await fetch('https://raw.githubusercontent.com/henderson2k/Work/main/eKinnex/CopyCartsAsset.js')).text())})();">test</a>
 
 <marquee>hi</marquee>
+
