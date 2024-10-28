@@ -13,3 +13,6 @@ javascript:(async()=>{eval(await(await fetch('https://raw.githubusercontent.com/
 
 
 https://app.sketchup.com/app?hl=en
+
+
+https://hailuoai.video/
