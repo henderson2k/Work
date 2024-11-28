@@ -21,7 +21,7 @@ setTimeout(function() {
   setTimeout(() => {
     document.getElementById('incident.u_are_you_available_via_teams').value = valuesArray[1];
     document.getElementById('sys_display.incident.cmdb_ci').value = valuesArray[2];
-    document.getElementById('').value = valuesArray[3];
+    document.getElementById('sys_display.incident.u_device_tag').value = valuesArray[3];
     document.getElementById('').value = valuesArray[4];
     document.getElementById('').value = valuesArray[5];
     document.getElementById('').value = valuesArray[6];
