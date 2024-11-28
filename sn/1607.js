@@ -43,17 +43,7 @@ setTimeout(function() {
 
   }
   
-  // Example usage:
-  // Assuming you have an input element with id "myInput"
-  const inputElement = document.getElementById('ctl00_ContentPlaceHolder1_txtSName');
-  simulateEnterKeyPress(inputElement);
   
-  // Add an event listener to verify the enter key press
-  inputElement.addEventListener('keypress', function(event) {
-      if (event.key === 'Enter') {
-          console.log('Enter key pressed!');
-          // Add your logic here that should execute on Enter key press
-      }
   });
   
           
