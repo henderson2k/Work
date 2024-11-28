@@ -29,27 +29,7 @@ setTimeout(function() {
 
   
 
-  
-  // Set Speciality
-  var SpecialityDropdown = document.getElementById("ctl00_ContentPlaceHolder1_ddlSpecialty");
-  var SpecialityValue = valuesArray[8];
-  
-  for (var i = 0; i < SpecialityDropdown.options.length; i++) {
-      if (SpecialityDropdown.options[i].value === SpecialityValue) {
-          SpecialityDropdown.selectedIndex = i;
-          break;
-      }
-  }
-  // Set Group
-  var GroupDropdown = document.getElementById("ctl00_ContentPlaceHolder1_ddlGroupName");
-  var GroupValue = valuesArray[5];
-  
-  for (var i = 0; i < GroupDropdown.options.length; i++) {
-      if (GroupDropdown.options[i].value === GroupValue) {
-          GroupDropdown.selectedIndex = i;
-          break;
-      }
-  }
+
   
 
   }
