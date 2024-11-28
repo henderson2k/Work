@@ -19,6 +19,11 @@ setTimeout(function() {
   document.getElementById('sys_display.incident.caller_id').value = valuesArray[0];
 
   setTimeout(() => {
+    document.getElementById('ctl00_ContentPlaceHolder1_txtSName').value = valuesArray[1];
+    document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg').value = valuesArray[2];
+    document.getElementById('ctl00_ContentPlaceHolder1_txtEmailAddress').value = valuesArray[3];
+    
+    
     
 }, 5000);
 
