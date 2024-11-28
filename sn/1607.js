@@ -17,7 +17,7 @@ setTimeout(function () {
             // Further split the 8th value for additional details if needed
             var DescriptionArray = valuesArray[7].split('_').map(value => value.trim());
             //console.log('Parsed values:', valuesArray);
-            console.log('Description breakdown:', DescriptionArray);
+           // console.log('Description breakdown:', DescriptionArray);
 
             // Set PUMA form fields
             document.getElementById('sys_display.incident.caller_id').value = valuesArray[0];
