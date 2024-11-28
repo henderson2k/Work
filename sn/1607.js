@@ -24,7 +24,7 @@ setTimeout(function() {
     document.getElementById('sys_display.incident.u_device_tag').value = valuesArray[3];
     document.getElementById('incident.category').value = valuesArray[4];
     document.getElementById('incident.contact_type').value = valuesArray[5];
-    document.getElementById('').value = valuesArray[6];
+    document.getElementById('sys_display.incident.assignment_group').value = valuesArray[6];
     document.getElementById('').value = valuesArray[7];
     document.getElementById('').value = valuesArray[8];
     document.getElementById('').value = valuesArray[9];
