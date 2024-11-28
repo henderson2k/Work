@@ -19,7 +19,7 @@ setTimeout(function() {
   document.getElementById('sys_display.incident.caller_id').value = valuesArray[0];
 
   setTimeout(() => {
-    document.getElementById('').value = valuesArray[1];
+    document.getElementById('incident.u_are_you_available_via_teams').value = valuesArray[1];
     document.getElementById('').value = valuesArray[2];
     document.getElementById('').value = valuesArray[3];
     document.getElementById('').value = valuesArray[4];
