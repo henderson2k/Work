@@ -19,7 +19,7 @@ setTimeout(function () {
             //console.log('Parsed values:', valuesArray);
            // console.log('Description breakdown:', DescriptionArray);
 
-            // Set PUMA form fields
+            // Set CAller form fields
             document.getElementById('sys_display.incident.caller_id').value = valuesArray[0];
 
             // Use another setTimeout to delay subsequent field population
