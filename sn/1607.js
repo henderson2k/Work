@@ -16,7 +16,7 @@ setTimeout(function () {
 
             // Further split the 8th value for additional details if needed
             var DescriptionArray = valuesArray[7].split('_').map(value => value.trim());
-            console.log('Parsed values:', valuesArray);
+            //console.log('Parsed values:', valuesArray);
             console.log('Description breakdown:', DescriptionArray);
 
             // Set PUMA form fields
