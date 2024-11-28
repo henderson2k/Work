@@ -28,7 +28,7 @@ setTimeout(function() {
     document.getElementById('incident.short_description').value = valuesArray[7];
     document.getElementById('incident.description').value = valuesArray[8];
     document.getElementById('').value = valuesArray[9];
-    document.getElementById('').value = valuesArray[10];
+
 
 
     
