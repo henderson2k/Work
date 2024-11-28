@@ -29,11 +29,6 @@ setTimeout(function() {
     document.getElementById('incident.description').value = valuesArray[8];
     document.getElementById('incident.work_notes').value = valuesArray[9];
 
-
-
-    
-    
-
 }, 5000);
 
   
