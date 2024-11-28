@@ -48,3 +48,4 @@ setTimeout(function () {
             console.error('Error reading from clipboard:', error);
         });
 }, 1);
+
