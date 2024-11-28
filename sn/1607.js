@@ -22,9 +22,7 @@ setTimeout(function() {
     
 }, 5000);
 
-  document.getElementById('ctl00_ContentPlaceHolder1_txtSName').value = valuesArray[1];
-  document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg').value = valuesArray[2];
-  document.getElementById('ctl00_ContentPlaceHolder1_txtEmailAddress').value = valuesArray[3];
+  
 
   
   // Set Speciality
