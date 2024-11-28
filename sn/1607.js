@@ -25,7 +25,7 @@ setTimeout(function() {
     document.getElementById('incident.category').value = valuesArray[4];
     document.getElementById('incident.contact_type').value = valuesArray[5];
     document.getElementById('sys_display.incident.assignment_group').value = valuesArray[6];
-    document.getElementById('').value = valuesArray[7];
+    document.getElementById('incident.short_description').value = valuesArray[7];
     document.getElementById('').value = valuesArray[8];
     document.getElementById('').value = valuesArray[9];
     document.getElementById('').value = valuesArray[10];
