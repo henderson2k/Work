@@ -24,7 +24,7 @@ setTimeout(function() {
     document.getElementById('ctl00_ContentPlaceHolder1_txtEmailAddress').value = valuesArray[3];
     
     
-    
+
 }, 5000);
 
   
@@ -51,29 +51,7 @@ setTimeout(function() {
       }
   }
   
-  
-  // Set Board radio and fields
-  document.querySelector('[tabindex="49"]').checked = true;  // Radio button to Lanarkshire
-  document.querySelector('[tabindex="50"]').value = DescriptionArray[1]  // Site
-  document.querySelector('[tabindex="51"]').value = DescriptionArray[3]  // Dept.
-  document.querySelector('[tabindex="52"]').value = DescriptionArray[2]  // Grade
-  
-  
-  
-          
-    // Function to simulate Enter key press
-  function simulateEnterKeyPress(element) {
-      // Create a new "Enter" event
-      const event = new KeyboardEvent('keypress', {
-          key: 'Enter',
-          code: 'Enter',
-          which: 13,
-          keyCode: 13,
-          bubbles: true,
-      });
-  
-      // Dispatch the event on the specified element
-      element.dispatchEvent(event);
+
   }
   
   // Example usage:
