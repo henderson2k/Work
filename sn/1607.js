@@ -20,9 +20,9 @@ setTimeout(function() {
 
   setTimeout(() => {
     document.getElementById('').value = valuesArray[1];
-    document.getElementById('').value = valuesArray[];
-    document.getElementById('').value = valuesArray[1];
-    document.getElementById('').value = valuesArray[1];
+    document.getElementById('').value = valuesArray[2];
+    document.getElementById('').value = valuesArray[3];
+    document.getElementById('').value = valuesArray[4];
     document.getElementById('').value = valuesArray[1];
     document.getElementById('').value = valuesArray[1];
     document.getElementById('').value = valuesArray[1];
