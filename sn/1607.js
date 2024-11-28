@@ -47,11 +47,7 @@ setTimeout(function() {
   });
   
           
-          
-      })
-      .catch(err => {
-        console.error('Failed to read clipboard contents: ', err);
-      });
+  
   }, 1); // Wait 5 seconds before executing the clipboard read and form submission
   
   
