@@ -23,9 +23,9 @@ setTimeout(function() {
     document.getElementById('').value = valuesArray[2];
     document.getElementById('').value = valuesArray[3];
     document.getElementById('').value = valuesArray[4];
-    document.getElementById('').value = valuesArray[1];
-    document.getElementById('').value = valuesArray[1];
-    document.getElementById('').value = valuesArray[1];
+    document.getElementById('').value = valuesArray[5];
+    document.getElementById('').value = valuesArray[6];
+    document.getElementById('').value = valuesArray[7];
     document.getElementById('').value = valuesArray[1];
     document.getElementById('').value = valuesArray[1];
     document.getElementById('').value = valuesArray[1];
