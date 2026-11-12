@@ -6,7 +6,7 @@
         window.open(s, "_blank");
         return;
     }
-//Hi
+//Hi there
     // Relative file paths
     const f = "/sites/ASHTestTeam/Shared Documents/Ricoh/test.txt";
     const devFile = "/sites/ASHTestTeam/Shared Documents/Ricoh/Devices.txt";
